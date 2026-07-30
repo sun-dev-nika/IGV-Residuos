@@ -1,0 +1,50 @@
+{
+  "_comentario": "Datos de respaldo. Se usan solo si falla la conexión con Google Sheets. Mantener sincronizados manualmente con el sheet del cliente.",
+  "puntos_limpios": [
+    {
+      "nombre": "Punto Limpio Arauco Express Las Brujas",
+      "comuna": "La Reina",
+      "direccion": "Carlos Silva Vildósola 9073, Arauco Express Las Brujas",
+      "estado": "Inaugurado",
+      "horarios": "Lunes a viernes: 9:30 a 13:00 · 14:00 a 19:30 hrs\nMartes: cerrado\nSábado a domingo: 9:00 a 13:00 · 14:00 a 17:00 hrs",
+      "descripcion": "Reciclaje cercano, ordenado y trazable para la comunidad. Recepción de residuos reciclables con señalética clara, acompañamiento a la comunidad y trazabilidad de la gestión.",
+      "residuos_aceptados": "PET 1, PEAD 2, vidrio, carton, papel, tetra pak, latas, aluminio",
+      "foto_url": "assets/imagenes/punto-las-brujas.jpg",
+      "activo": "si"
+    },
+    {
+      "nombre": "Punto Limpio Jorge Alessandri",
+      "comuna": "La Reina",
+      "direccion": "Jorge Alessandri 680, La Reina",
+      "estado": "Inaugurado",
+      "horarios": "Lunes: cerrado\nMartes a viernes: 8:30 a 19:30 hrs\nSábado y domingo: 9:00 a 17:00 hrs",
+      "descripcion": "Centro de reciclaje, tratamiento de residuos y educación ambiental en La Reina. Recepción, correcta separación y procesamiento de materiales, acercando la educación ambiental a la comunidad.",
+      "residuos_aceptados": "PET 1, PEAD 2, PEBD 4, PP 5, vidrio, carton, papel, tetra pak, latas, aluminio, libros, pilas",
+      "foto_url": "assets/imagenes/punto-jorge-alessandri.jpg",
+      "activo": "si"
+    },
+    {
+      "nombre": "Reciclómetro",
+      "comuna": "Plataforma",
+      "direccion": "",
+      "estado": "Plataforma",
+      "fecha_inauguracion": "",
+      "descripcion": "Reciclaje medible, participativo y conectado con beneficios. Herramienta de participación ciudadana que conecta reciclaje, trazabilidad y beneficios, permitiendo visibilizar el esfuerzo de las personas que reciclan.",
+      "residuos_aceptados": "",
+      "foto_url": "assets/imagenes/reciclometro.jpg",
+      "activo": "si"
+    }
+  ],
+  "aliados": [
+    { "orden": 1,  "nombre": "Municipalidad de La Reina",       "logo_url": "assets/imagenes/aliados/1.jpg" },
+    { "orden": 2,  "nombre": "CCU",                              "logo_url": "assets/imagenes/aliados/2.jpg" },
+    { "orden": 3,  "nombre": "Parque Padre Hurtado",             "logo_url": "assets/imagenes/aliados/3.jpg" },
+    { "orden": 4,  "nombre": "Arauco Express",                   "logo_url": "assets/imagenes/aliados/4.jpg" },
+    { "orden": 5,  "nombre": "Municipalidad de Huechuraba",      "logo_url": "assets/imagenes/aliados/5.jpg" },
+    { "orden": 6,  "nombre": "Municipalidad de Cabo de Hornos",  "logo_url": "assets/imagenes/aliados/6.jpg" },
+    { "orden": 7,  "nombre": "Municipalidad de Las Condes",      "logo_url": "assets/imagenes/aliados/7.jpg" },
+    { "orden": 8,  "nombre": "Municipalidad de Temuco",          "logo_url": "assets/imagenes/aliados/8.jpg" },
+    { "orden": 9,  "nombre": "Quiñenco",                         "logo_url": "assets/imagenes/aliados/9.jpg" },
+    { "orden": 10, "nombre": "Shell",                            "logo_url": "assets/imagenes/aliados/10.jpg" }
+  ]
+}

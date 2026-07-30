@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IGV Residuos — Logística y gestión integral de residuos en Chile. Trazabilidad, economía circular y reportabilidad ESG para empresas y municipios." />
+  <title>IGV Residuos — Gestión integral de residuos</title>
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="IGV Residuos — Inicio">
+        <span class="brand-chip">
+          <img src="assets/logo-igv-blanco.jpg" alt="IGV Residuos" class="brand-logo" />
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#materiales">Materiales</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#puntos-limpios">Puntos Limpios</a></li>
+          <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="mobileNav"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Menú móvil">
+      <ul>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#materiales">Materiales Valorizables</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#puntos-limpios">Puntos Limpios</a></li>
+        <li><a href="#aliados">Aliados</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-bg__photo"></div>
+        <div class="hero-bg__overlay"></div>
+        <div class="hero-bg__grid"></div>
+        <div class="hero-bg__noise"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-meta">
+          <span class="mono-label hero-meta__label">[ IGV / 001 / SANTIAGO ]</span>
+          <span class="mono-label hero-meta__pulse"><span class="pulse"></span> SIST_ACTIVO</span>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-col-main">
+            <p class="eyebrow eyebrow-mono fx-load fx-d0">[ LOGISTICA / GESTION / TRAZABILIDAD / REPORTABILIDAD ]</p>
+            <h1 class="hero-title fx-load fx-d2">
+              <span>Gestión</span>
+              <span>de residuos</span>
+              <span>con trazabilidad</span>
+              <span class="hero-title__accent">real.</span>
+            </h1>
+            <p class="hero-lead fx-load fx-d4">
+              Un solo proveedor para retiro, transporte, clasificación, tratamiento y reportabilidad.
+              Integramos logística, operación y cumplimiento para que empresas, municipios y
+              comunidades avancen hacia una gestión de residuos medible y sostenible.
+            </p>
+            <div class="hero-actions fx-load fx-d5">
+              <a href="#servicios" class="btn btn-primary">→ SERVICIOS</a>
+              <a href="#puntos-limpios" class="btn btn-ghost">VER PUNTOS LIMPIOS</a>
+            </div>
+          </div>
+          <div class="hero-col-num" aria-hidden="true">
+            <span class="hero-num fx-load fx-d1">10</span>
+            <span class="mono-label hero-num__cap">[ +10 / ALIANZAS_2026 ]</span>
+          </div>
+        </div>
+
+        <ul class="hero-stats fx-load fx-d6" aria-label="Datos destacados">
+          <li>
+            <span class="mono-label">[ COBERTURA ]</span>
+            <strong>RM + ALIADOS</strong>
+          </li>
+          <li>
+            <span class="mono-label">[ CUMPLIMIENTO ]</span>
+            <strong>SINADER · RETC</strong>
+          </li>
+          <li>
+            <span class="mono-label">[ REPORTE ]</span>
+            <strong>ESG · AUDITABLE</strong>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section section-paper" id="nosotros">
+      <span class="section-tag" aria-hidden="true">[ 02 / NOSOTROS ]</span>
+      <div class="container nosotros-grid">
+        <figure class="nosotros-media">
+          <img src="assets/imagenes/nosotros.jpg" alt="Camión IGV saliendo de la planta de reciclaje." loading="lazy" />
+          <figcaption class="mono-label">[ FOTO / OPERACION_2026 ]</figcaption>
+        </figure>
+        <div class="nosotros-body">
+          <p class="eyebrow eyebrow-mono">[ QUIENES SOMOS ]</p>
+          <h2>Nos hacemos cargo del camino de cada residuo.</h2>
+          <p>
+            En <strong>IGV Residuos</strong> integramos logística, operación y reportabilidad
+            para transformar la gestión de residuos en una operación simple, trazable y
+            alineada a economía circular real.
+          </p>
+          <p>
+            Trabajamos con empresas, municipios y comunidades que buscan reducir residuos,
+            aumentar la valorización y respaldar su gestión con evidencia clara y auditable.
+          </p>
+          <ul class="check-list">
+            <li>Operación + cumplimiento + impacto en un solo equipo.</li>
+            <li>Capacitación a locatarios, comunidades y personal operativo.</li>
+            <li>Reportes claros para auditorías, SINADER, RETC y gestión ESG.</li>
+            <li>Trazabilidad y evidencia de cada retiro realizado.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section" id="servicios">
+      <span class="section-tag" aria-hidden="true">[ 03 / SERVICIOS ]</span>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-mono">[ DOS LINEAS / UNA OPERACION ]</p>
+          <h2>Servicios.</h2>
+        </div>
+
+        <div class="cards-2">
+          <article class="service-card service-card--primary">
+            <figure class="service-card__media">
+              <img src="assets/imagenes/reciclables.jpg" alt="Materiales reciclables clasificados en planta" loading="lazy" />
+            </figure>
+            <div class="service-card__head">
+              <span class="mono-label">// 01.RECICLABLES</span>
+              <h3>Gestión de residuos reciclables</h3>
+              <p class="service-card__desc">Retiro, transporte, clasificación y preparación de materiales reciclables para su valorización.</p>
+            </div>
+            <ul>
+              <li>Recolección selectiva por tipo de material</li>
+              <li>Transporte especializado y trazable</li>
+              <li>Clasificación y preparación en planta</li>
+              <li>Consolidación para valorización</li>
+              <li>Capacitación para correcta segregación de residuos</li>
+            </ul>
+            <p class="service-card__residuos">
+              <span>Plásticos 1-7</span>
+              <span>Vidrio</span>
+              <span>Cartón</span>
+              <span>Papel</span>
+              <span>Metales</span>
+              <span>Tetra Pak</span>
+            </p>
+          </article>
+
+          <article class="service-card service-card--dark">
+            <figure class="service-card__media">
+              <img src="assets/imagenes/no-reciclables.jpg" alt="Operación de retiro de residuos no reciclables" loading="lazy" />
+            </figure>
+            <div class="service-card__head">
+              <span class="mono-label mono-label--light">// 02.NO_RECICLABLES</span>
+              <h3>Gestión de residuos no reciclables</h3>
+              <p class="service-card__desc">Gestionamos residuos no reciclables mediante retiro programado, traslado y disposición según el plan acordado con cada cliente.</p>
+            </div>
+            <ul>
+              <li>Retiro programado y atención de contingencias</li>
+              <li>Traslado y disposición según plan acordado</li>
+              <li>Coordinación operativa en terreno</li>
+              <li>Soporte documental y guías de traslado</li>
+              <li>Reportabilidad para control interno y cumplimiento</li>
+            </ul>
+            <p class="service-card__residuos service-card__residuos--light">
+              <span>Disposición autorizada</span>
+              <span>Auditorías</span>
+              <span>Reportes</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATERIALES VALORIZABLES -->
+    <section class="section section-paper" id="materiales">
+      <span class="section-tag" aria-hidden="true">[ 04 / MATERIALES_VAL ]</span>
+      <div class="container">
+        <div class="materiales-head">
+          <div>
+            <p class="eyebrow eyebrow-mono">[ MATERIALES / VALORIZABLES ]</p>
+            <h2>Residuos que gestionamos para su valorización.</h2>
+            <p>
+              Reciclar es una acción clave para reducir la cantidad de residuos que
+              terminan en rellenos sanitarios, disminuir la extracción de materias primas
+              y dar una nueva vida a materiales que aún tienen valor. Cuando los residuos
+              se entregan limpios, secos y correctamente separados, la gestión se vuelve
+              más eficiente y aumenta la posibilidad de valorización.
+            </p>
+          </div>
+          <figure class="materiales-head__media">
+            <img src="assets/imagenes/revalorizamos.jpg" alt="Materiales reciclables clasificados para valorización" loading="lazy" />
+            <figcaption class="mono-label">[ FOTO / VALORIZACION ]</figcaption>
+          </figure>
+        </div>
+
+        <div class="materiales-list">
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 01 ]</span>
+              <span class="material-item__name">PET 1</span>
+              <span class="mono-label material-item__type">PLASTICO</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Botellas de bebida, agua, jugos, envases transparentes y algunos envases de alimentos.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Limpio, seco, aplastado y sin restos de líquido.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>Reciclar PET reduce la cantidad de botellas plásticas que llegan a rellenos sanitarios y al medio ambiente. Permite recuperar material para fabricar nuevos envases, fibras textiles, láminas y otros productos reciclados.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 02 ]</span>
+              <span class="material-item__name">PEAD 2</span>
+              <span class="mono-label material-item__type">PLASTICO</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Bidones, envases de detergente, shampoo, productos de limpieza, envases rígidos y tapas.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Vacío, limpio, seco y sin restos de producto.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>Reciclar PEAD permite recuperar un plástico de alta resistencia que puede convertirse en nuevos envases, tuberías, contenedores y mobiliario plástico de larga duración, reduciendo la producción de plástico virgen.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 03 ]</span>
+              <span class="material-item__name">PVC 3</span>
+              <span class="mono-label material-item__type">PLASTICO</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Tuberías, algunos envases, láminas, tarjetas plásticas y ciertos materiales de construcción.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Limpio, seco y separado de otros plásticos. Verificar previamente si el punto limpio o gestor lo recibe, porque requiere tratamiento específico.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>La correcta separación del PVC permite darle un tratamiento adecuado y reduce riesgos asociados a una mala disposición, evitando que contamine otras cadenas de reciclaje.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 04 ]</span>
+              <span class="material-item__name">PEBD 4</span>
+              <span class="mono-label material-item__type">PLASTICO</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Bolsas, films, envoltorios flexibles, mangas plásticas, bolsas de pan, film stretch y plásticos blandos.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Limpio, seco, sin restos orgánicos y compactado cuando sea posible.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>Reciclar PEBD disminuye el volumen de plásticos flexibles, que suelen dispersarse fácilmente. Su recuperación permite transformarlo en nuevas bolsas, films, láminas y productos plásticos reciclados.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 05 ]</span>
+              <span class="material-item__name">PP 5</span>
+              <span class="mono-label material-item__type">PLASTICO</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Tapas, potes de yogurt, envases de alimentos, baldes, recipientes rígidos, bandejas y algunos utensilios plásticos.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Limpio, seco y sin restos de comida.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>El PP tiene buena capacidad de recuperación y puede convertirse en nuevos objetos plásticos. Reciclarlo reduce residuos de consumo diario y aprovecha un material usado en envases y productos domésticos.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 06 ]</span>
+              <span class="material-item__name">Otros plásticos 7</span>
+              <span class="mono-label material-item__type">PLASTICO</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Plásticos mixtos, policarbonato, acrílicos, envases multicapa, bioplásticos y materiales compuestos.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Limpio, seco y separado para revisión. No todos los plásticos tipo 7 tienen el mismo destino ni la misma posibilidad de reciclaje.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>Separar los plásticos tipo 7 permite identificar materiales que requieren una gestión especial. Evita que contaminen otras cadenas de reciclaje y ayuda a tomar mejores decisiones sobre valorización, reutilización o disposición responsable.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 07 ]</span>
+              <span class="material-item__name">Papel</span>
+              <span class="mono-label material-item__type">FIBRA</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Hojas, cuadernos, diarios, revistas, papel de oficina y documentos sin plastificado.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Seco, limpio, sin restos de comida, líquidos, servilletas usadas o papeles contaminados.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>Reciclar 1 tonelada de papel puede ahorrar aproximadamente 17 árboles, miles de litros de agua y una cantidad importante de energía, además de disminuir el volumen de residuos enviados a disposición final.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 08 ]</span>
+              <span class="material-item__name">Cartón</span>
+              <span class="mono-label material-item__type">FIBRA</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Cajas, embalajes, cartón corrugado y envases de cartón limpio.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Plegado, seco, limpio y sin restos de comida o grasa.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>Reciclar 1 tonelada de cartón permite recuperar un material de alto volumen, reducir espacio en rellenos sanitarios y disminuir la demanda de fibra virgen. Plegarlo y compactarlo correctamente optimiza el transporte y la operación logística.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 09 ]</span>
+              <span class="material-item__name">Vidrio</span>
+              <span class="mono-label material-item__type">MINERAL</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Botellas, frascos y envases de vidrio.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Vacío, limpio y, si es posible, sin tapas.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>Reciclar 1 tonelada de vidrio ahorra materias primas como arena, carbonato de sodio y caliza. El vidrio puede reciclarse muchas veces sin perder calidad, lo que lo convierte en un material altamente valorizable cuando se entrega limpio y separado.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 10 ]</span>
+              <span class="material-item__name">Latas y aluminio</span>
+              <span class="mono-label material-item__type">METAL</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Latas de bebida, conservas y envases de aluminio.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Limpio, seco y aplastado cuando sea posible.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>Producir aluminio reciclado requiere hasta un 95% menos de energía que producirlo desde materia prima virgen. Reciclarlo reduce emisiones, ahorra energía y mantiene un material altamente valorizable dentro de la cadena productiva.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="material-item">
+            <summary>
+              <span class="mono-label material-item__num">[ 11 ]</span>
+              <span class="material-item__name">Tetra Pak</span>
+              <span class="mono-label material-item__type">MULTICAPA</span>
+              <span class="material-item__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="material-item__body">
+              <div>
+                <h4>Ejemplos</h4>
+                <p>Cajas de leche, jugo, crema, bebidas vegetales y alimentos líquidos.</p>
+              </div>
+              <div>
+                <h4>Cómo entregarlo</h4>
+                <p>Abrir, enjuagar, secar y aplastar.</p>
+              </div>
+              <div>
+                <h4>Impacto ambiental</h4>
+                <p>Permite recuperar materiales compuestos y reducir residuos de envases de consumo diario, evitando que terminen en disposición final.</p>
+              </div>
+            </div>
+          </details>
+        </div>
+
+        <p class="materiales-cierre mono-label">
+          [ Cada residuo tiene un camino distinto. Separarlos correctamente mejora la gestión, aumenta la valorización y reduce el impacto ambiental. ]
+        </p>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="section section-dark" id="proceso">
+      <span class="section-tag section-tag--light" aria-hidden="true">[ 05 / PROCESO_OP ]</span>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-mono eyebrow-light">[ PROCESO / 04 PASOS ]</p>
+          <h2>Cuatro pasos. Operación adaptada a tu realidad.</h2>
+          <p>
+            Diseñamos planes de gestión según volúmenes, puntos críticos, frecuencia de
+            retiro y necesidades de reportabilidad.
+          </p>
+        </div>
+
+        <ol class="steps" aria-label="Proceso operativo en cuatro pasos">
+          <li class="step">
+            <span class="step-pin" aria-hidden="true"></span>
+            <span class="step-num">01</span>
+            <h3>Diagnóstico</h3>
+            <p>Levantamos volúmenes, puntos críticos y frecuencia de retiro en terreno.</p>
+          </li>
+          <li class="step">
+            <span class="step-pin" aria-hidden="true"></span>
+            <span class="step-num">02</span>
+            <h3>Retiro</h3>
+            <p>Coordinamos rutas programadas, flota propia y atención de contingencias.</p>
+          </li>
+          <li class="step">
+            <span class="step-pin" aria-hidden="true"></span>
+            <span class="step-num">03</span>
+            <h3>Planta</h3>
+            <p>Clasificamos, preparamos y consolidamos residuos para valorización o disposición.</p>
+          </li>
+          <li class="step">
+            <span class="step-pin" aria-hidden="true"></span>
+            <span class="step-num">04</span>
+            <h3>Reporte</h3>
+            <p>Entregamos trazabilidad, indicadores y soporte documental para SINADER, RETC y gestión ESG.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PUNTOS LIMPIOS (dinámico desde Google Sheets) -->
+    <section class="section" id="puntos-limpios">
+      <span class="section-tag" aria-hidden="true">[ 06 / RED_PL ]</span>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-mono">[ RED / PUNTOS_LIMPIOS / LIVE ]</p>
+          <h2>Donde la gestión se vuelve visible.</h2>
+          <p>
+            Operamos y acompañamos puntos limpios en alianza con empresas y municipios.
+            Cada apertura suma a una red de valorización, educación ambiental y participación
+            ciudadana.
+          </p>
+        </div>
+
+        <div class="puntos-grid" id="puntosGrid" aria-live="polite" aria-busy="true">
+          <!-- Skeleton loader: se reemplaza con cards dinámicas -->
+          <div class="punto-card punto-card--skeleton" aria-hidden="true">
+            <div class="punto-card__media"></div>
+            <div class="punto-card__body">
+              <div class="sk sk-line sk-line--short"></div>
+              <div class="sk sk-line"></div>
+              <div class="sk sk-line sk-line--medium"></div>
+            </div>
+          </div>
+          <div class="punto-card punto-card--skeleton" aria-hidden="true">
+            <div class="punto-card__media"></div>
+            <div class="punto-card__body">
+              <div class="sk sk-line sk-line--short"></div>
+              <div class="sk sk-line"></div>
+              <div class="sk sk-line sk-line--medium"></div>
+            </div>
+          </div>
+          <div class="punto-card punto-card--skeleton" aria-hidden="true">
+            <div class="punto-card__media"></div>
+            <div class="punto-card__body">
+              <div class="sk sk-line sk-line--short"></div>
+              <div class="sk sk-line"></div>
+              <div class="sk sk-line sk-line--medium"></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="puntos-feedback" id="puntosFeedback" hidden></p>
+      </div>
+    </section>
+
+    <!-- ALIADOS -->
+    <section class="section section-paper" id="aliados">
+      <span class="section-tag" aria-hidden="true">[ 07 / ALIADOS ]</span>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-mono">[ RED / 10 ALIADOS / 2026 ]</p>
+          <h2>Empresas y municipios que confían en IGV.</h2>
+          <p>
+            Trabajamos junto a organizaciones que buscan una gestión de residuos más
+            eficiente, medible y responsable.
+          </p>
+        </div>
+        <div class="aliados-grid" id="aliadosGrid" aria-label="Aliados de IGV Residuos en orden cronológico">
+          <!-- Renderizado por script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ESG / TRAZABILIDAD -->
+    <section class="section" id="esg">
+      <span class="section-tag" aria-hidden="true">[ 08 / TRAZABILIDAD ]</span>
+      <div class="container two-col two-col--reverse">
+        <div>
+          <p class="eyebrow eyebrow-mono">[ COMPROMISO_ESG ]</p>
+          <h2>Operación que se puede medir, reportar y auditar.</h2>
+          <p>
+            Cada retiro queda documentado mediante guías de traslado, evidencias
+            fotográficas, trazabilidad e indicadores mensuales. Conectamos la operación
+            con herramientas de cumplimiento ambiental para que la gestión sea clara,
+            verificable y sostenible en el tiempo.
+          </p>
+        </div>
+        <ul class="esg-list">
+          <li>
+            <span class="mono-label">[ 01 ]</span>
+            <strong>SINADER</strong>
+            Soporte y declaración del Sistema Nacional de Declaración de Residuos.
+          </li>
+          <li>
+            <span class="mono-label">[ 02 ]</span>
+            <strong>RETC</strong>
+            Respaldo para Registro de Emisiones y Transferencias de Contaminantes.
+          </li>
+          <li>
+            <span class="mono-label">[ 03 ]</span>
+            <strong>Reportes ESG</strong>
+            Indicadores claros de valorización y cumplimiento para la organización.
+          </li>
+          <li>
+            <span class="mono-label">[ 04 ]</span>
+            <strong>Capacitación</strong>
+            Formación a equipos locales en segregación correcta y cultura de reciclaje.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section-dark" id="contacto">
+      <span class="section-tag section-tag--light" aria-hidden="true">[ 09 / CONTACTO ]</span>
+      <div class="container contacto-inner">
+        <div>
+          <p class="eyebrow eyebrow-mono eyebrow-light">[ IMPLEMENTEMOS_TU_PLAN ]</p>
+          <h2>Hablemos sobre tu plan de gestión.</h2>
+          <p>
+            Cuéntanos tus volúmenes, puntos de retiro y frecuencia. Te enviaremos una
+            propuesta operativa con tarifa, reportabilidad y alcance.
+          </p>
+          <div class="contacto-acciones">
+            <a href="mailto:administracion@igvresiduos.cl?subject=Cotización%20plan%20de%20gestión" class="btn btn-primary">
+              → ENVIAR CORREO
+            </a>
+            <a href="https://wa.me/56900000000?text=Hola%20IGV%2C%20quiero%20cotizar%20un%20plan%20de%20gesti%C3%B3n%20de%20residuos." class="btn btn-ghost btn-ghost--light" target="_blank" rel="noopener">
+              WHATSAPP COMERCIAL
+            </a>
+          </div>
+        </div>
+        <ul class="contacto-data">
+          <li>
+            <span class="mono-label">[ CORREO ]</span>
+            <a href="mailto:administracion@igvresiduos.cl">administracion@igvresiduos.cl</a>
+          </li>
+          <li>
+            <span class="mono-label">[ WHATSAPP ]</span>
+            <a href="https://wa.me/56900000000" target="_blank" rel="noopener">+56 9 0000 0000</a>
+          </li>
+          <li>
+            <span class="mono-label">[ COBERTURA ]</span>
+            Región Metropolitana + aliados regionales
+          </li>
+          <li>
+            <span class="mono-label">[ INSTAGRAM ]</span>
+            <a href="https://instagram.com/igvresiduos" target="_blank" rel="noopener">@igvresiduos</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo-igv-blanco.jpg" alt="IGV Residuos" class="footer-logo" />
+        <p>Gestión integral de residuos. Logística, operación y trazabilidad bajo un solo proveedor.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <ul>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#materiales">Materiales Valorizables</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#puntos-limpios">Puntos Limpios</a></li>
+          <li><a href="#aliados">Aliados</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <p class="footer-meta">
+        <span class="mono-label">[ © <span id="year"></span> / IGV_RESIDUOS / v.2026.05 ]</span>
+        <span class="mono-label">Todos los derechos reservados.</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ============================================================ -->
+  <!-- TEMPLATE: Card de Punto Limpio (renderizado por script.js)   -->
+  <!-- ============================================================ -->
+  <template id="puntoCardTpl">
+    <article class="punto-card">
+      <div class="punto-card__media">
+        <img alt="" loading="lazy" />
+        <span class="punto-card__badge"></span>
+        <span class="punto-card__code mono-label"></span>
+      </div>
+      <div class="punto-card__body">
+        <p class="punto-card__comuna mono-label"></p>
+        <h3 class="punto-card__nombre"></h3>
+        <p class="punto-card__direccion"></p>
+        <p class="punto-card__fecha"></p>
+        <p class="punto-card__desc"></p>
+        <ul class="punto-card__residuos" aria-label="Residuos aceptados"></ul>
+      </div>
+      <div class="punto-card__meta">
+        <span class="punto-card__meta-cell"></span>
+        <span class="punto-card__meta-cell"></span>
+        <span class="punto-card__meta-cell"></span>
+      </div>
+    </article>
+  </template>
+
+  <!-- ============================================================ -->
+  <!-- TEMPLATE: Logo de Aliado                                     -->
+  <!-- ============================================================ -->
+  <template id="aliadoTpl">
+    <div class="aliado-card">
+      <span class="mono-label aliado-card__num">[ 00 ]</span>
+      <img alt="" loading="lazy" />
+      <span class="aliado-card__name"></span>
+    </div>
+  </template>
+
+  <!-- PapaParse CDN para parsear CSV con robustez -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
