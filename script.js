@@ -259,6 +259,7 @@
       const fechaEl = node.querySelector(".punto-card__fecha");
       const descEl = node.querySelector(".punto-card__desc");
       const residuosEl = node.querySelector(".punto-card__residuos");
+      const ctaEl = node.querySelector(".punto-card__cta");
       const metaCells = node.querySelectorAll(".punto-card__meta-cell");
 
       const fotoUrl = normalizarFotoUrl(punto.foto_url);
@@ -326,6 +327,14 @@
         residuosEl.appendChild(li);
       });
       if (!residuos.length) residuosEl.remove();
+
+      if (ctaEl) {
+        if (String(punto.estado || "").trim() === "Plataforma") {
+          ctaEl.textContent = "Conocer más →";
+        } else {
+          ctaEl.remove();
+        }
+      }
 
       if (metaCells.length >= 3) {
         metaCells[0].textContent = codigo;
